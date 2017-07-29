@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/tan_background"
+    android:minHeight="@dimen/list_item_height">
+    <ImageView
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:id="@+id/miwok_image_view" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/text_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/miwok_image_view"
+        android:paddingLeft="16dp">
+    <TextView
+        android:layout_height="44dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/miwok_text_view"
+        tools:text="ABCD" />
+    <TextView
+        android:layout_height="44dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_below="@id/miwok_text_view"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/default_text_view"
+        tools:text="EFGH" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_play_arrow_black_24dp" />
+
+     </RelativeLayout>
+
+
+
+
+</RelativeLayout>
