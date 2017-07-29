@@ -1,8 +1,18 @@
-Miwok App
+Android-Language-App
 ===================================
 
-This app displays lists of vocabulary words for the user to learn the Miwok language.
-Used in a Udacity course in the Beginning Android Nanodegree.
+This app displays lists of vocabulary words for the user to learn the Miwok language(used by the Native Americans in Northern Carolina in US).
+This App Provides following Features:
+
+I. Offers translations between English and Miwok in the following categories:
+  1.Numbers
+  2.Colors
+  3.Phrases
+  4.Family Members
+II.Provides touch Feedback to the user in the form of Audio corresponding to the word interacted with.
+
+This App was Developed as a Part of Udacity course :- Beginning Android Nanodegre
+
 
 Pre-requisites
 --------------
